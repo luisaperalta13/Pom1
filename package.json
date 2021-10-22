@@ -1,0 +1,18 @@
+{
+  "name": "todoist",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "TestAll": "testcafe chrome pom/tests/*",
+    "Login": "testcafe chrome pom/tests/HomePage/"
+
+
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "testcafe": "^1.8.8"
+  }
+}
